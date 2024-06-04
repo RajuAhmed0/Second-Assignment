@@ -226,6 +226,89 @@ nav {
     line-height: 45px;
 }
 
+/* Online Games Funny Videos */
+.online-games h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.online-games h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games .text-p {
+    color: #534C64;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1px;
+}
+
+.games-card-list {
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+    margin-inline: 160px;
+    margin-bottom: 50px;
+}
+
+.games-card-list img {
+    width: 250px;
+}
+
+.games-card-list p {
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 250px;
+}
+
+.play-button {
+    text-align: center;
+ 
+}
+
+.play-button p {
+    color: #FF42A5;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.play-button img {
+    width: 35px;
+    margin-top: 120px;
+    opacity: 100%;
+    
+}
+
+.hover-card {
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+    transition: .3s ease;
+    opacity: 0;
+
+}
+
+.hover-card:hover .play-button {
+    opacity: 2;
+    background-color: rgb(15, 15, 15);
+    opacity: 50%;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+
 /* Responsiv mobail device  */
 @media screen and (max-width:576px) {
 
@@ -291,6 +374,12 @@ nav {
     .gamer-right .purpose {
         text-align: center;
     }
+    /* Online Games Funny Videos */
+    .games-card-list {
+        flex-direction: column;
+        margin-inline: 0px;
+        align-items: center;
+    }
 
-
+   
 }
