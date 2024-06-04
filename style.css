@@ -140,7 +140,7 @@ nav {
 .img-size img {
     width: 500px;
     margin-top: -60px;
-  
+
 }
 
 .btn-1 {
@@ -151,7 +151,7 @@ nav {
     color: #FFF;
     font-size: 14px;
     font-weight: 600;
-   margin-right: 15px;
+    margin-right: 15px;
 }
 
 .btn-2 {
@@ -164,10 +164,73 @@ nav {
     font-weight: 600;
 }
 
+/* we are gamer section style  */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    margin-inline: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pngwing-img img {
+    width: 600px;
+}
+
+.gamer-right {
+    text-align: right;
+}
+
+.gamer-right h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gamer-right p {
+    color: #534C64;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.btn-3 {
+    background-color: #FF42A5;
+    border: none;
+    border-radius: 48px;
+    padding: 14px 30px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-block: 10px;
+}
+
+.gamer-right .purpose {
+    color: #534C64;
+    text-align: right;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.gamer-right .purpose span {
+    color: #534C64;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
 /* Responsiv mobail device  */
 @media screen and (max-width:576px) {
 
     /* header section */
+
     nav,
     .item-block {
         flex-direction: column;
@@ -176,19 +239,58 @@ nav {
     .box-1 {
         width: 165px;
     }
+
     /* main section */
+    /* Play Like The section style*/
     .item-left {
-      flex-direction: column-reverse;
-       width: 100%;
-    margin-inline: 0px;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-inline: 0px;
         gap: 70px;
     }
+
     .img-size img {
         width: 420px;
-     margin-inline: auto;
-      
+        margin-inline: auto;
+
     }
-    .left-text{
+
+    .left-text {
         margin-inline: auto;
     }
+
+    /* we are gamer section style  */
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .pngwing-img img {
+        width: 450px;
+    }
+
+    .gamer-right {
+        margin-inline: auto;
+        text-align: center;
+
+    }
+
+    .gamer-right h2 {
+        text-align: center;
+
+    }
+
+    .gamer-right p {
+        text-align: center;
+    }
+
+
+    .gamer-right .purpose {
+        text-align: center;
+    }
+
+
 }
